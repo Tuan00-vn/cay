@@ -6,7 +6,7 @@
         <title>CatPhotoApp</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <main>
@@ -45,7 +45,7 @@
             <section>
                 <h2>Cat Form</h2>
                 <form action="https://freecatphotoapp.com/submit-cat-photo">
-                <fieldset>
+                <div class="lol"><fieldset>
                     <legend>Is your cat an indoor or outdoor cat?</legend>
                     <label><input type="radio" id="Indoor" name="Indoor-Outdoor" value="Indoor" checked>Indoor</label>
                     <label><input type="radio" id="Outdoor" name="Indoor-Outdoor"value="Outdoor">Outdoor</label>
@@ -59,6 +59,7 @@
                     <input type="checkbox" id="energetic" name="personality" value="energetic">
                         <label for="energetic"> Energetic</label>
                 </fieldset>
+                </div>
                     <input type="text" name="catphotourl" placeholder ="cat photo URL" required>
                 <button type="Submit"><strong>Click here!</strong></button>
                 </form>
